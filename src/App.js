@@ -1,13 +1,13 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header/Header';
+import Header from './Components/Header/Header';
 import { Route, Routes } from 'react-router-dom';
-import Home from './Home/Home';
-import Review from './Review/Review';
-import Dashboard from './Dashboard/Dashboard';
-import Blogs from './Blogs/Blogs';
-import AboutUs from './AboutUs/AboutUs';
-import NotFound from './NotFound/NotFound';
+import Home from './Components/Home/Home';
+import Review from './Components/Review/Review';
+import Dashboard from './Components/Dashboard/Dashboard';
+import Blogs from './Components/Blogs/Blogs';
+import AboutUs from './Components/AboutUs/AboutUs';
+import NotFound from './Components/NotFound/NotFound';
 function App() {
   return (
     <div className="container-fluid">
