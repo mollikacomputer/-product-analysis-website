@@ -6,8 +6,7 @@ const Review = () => {
     const [reviews, setReviews] = useReviews();
     
     return (
-        <div>
-            <h2> Review component</h2>
+        <div className='review-container'>
             {
                reviews.map(review => <SingleReview key = {review.id} review={review} > </SingleReview> )
             }

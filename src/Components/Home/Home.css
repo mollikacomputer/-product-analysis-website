@@ -17,11 +17,19 @@
 .product-pic{
     width: 90%;
 }
+.comment-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 @media only screen and (max-width: 600px) 
 {
     .home-container{
         display: grid;
         grid-template-columns:auto;
         
+    }
+    .comment-section{
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }

@@ -1,6 +1,5 @@
 import React from 'react';
-import './SingleReview.css'
-const SingleReview = (props) => {
+const ReviewSection = (props) => {
     const {name, rating, picture, action } = props.review;
     return (
         <div className='single-review-container'>
@@ -12,7 +11,8 @@ const SingleReview = (props) => {
             </div>
             
         </div>
+        
     );
 };
 
-export default SingleReview;
+export default ReviewSection;
