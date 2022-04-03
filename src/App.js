@@ -7,6 +7,7 @@ import Review from './Review/Review';
 import Dashboard from './Dashboard/Dashboard';
 import Blogs from './Blogs/Blogs';
 import AboutUs from './AboutUs/AboutUs';
+import NotFound from './NotFound/NotFound';
 function App() {
   return (
     <div className="container-fluid">
@@ -17,6 +18,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard></Dashboard>} > </Route>
         <Route path='/blogs' element={<Blogs></Blogs> } ></Route>
         <Route path='/aboutus' element={<AboutUs></AboutUs> } ></Route>
+        <Route path='*' element={<NotFound></NotFound>} ></Route>
       </Routes>
     </div>
   );

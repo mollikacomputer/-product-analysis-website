@@ -7,6 +7,9 @@
     margin: 1rem 0;
     
 }
+.home-container p{
+    line-height: 20px;
+}
 .product-desc{
 
 }
