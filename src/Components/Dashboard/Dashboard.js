@@ -1,9 +1,10 @@
 import React from 'react';
+import MyLineChart from '../MyLineChart/MyLineChart';
 import './Dashboard.css'
 const Dashboard = () => {
     return (
         <div>
-            <h2> Dashboard component</h2>
+           <h2> Dash Board</h2>
         </div>
     );
 };

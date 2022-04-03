@@ -21,6 +21,13 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+.questions-answer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
 @media only screen and (max-width: 600px) 
 {
     .home-container{
@@ -30,6 +37,9 @@
     }
     .comment-section{
         display: grid;
+        grid-template-columns: 1fr;
+    }
+    .questions-answer{
         grid-template-columns: 1fr;
     }
 }

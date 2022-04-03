@@ -27,13 +27,7 @@
       "action": "Nice Product.",
       "name": "Alta Lee"
     },
-    {
-      "id": "6249ea9ea5fb16e556da74fa",
-      "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      "rating": 4.50,
-      "action": "Awesome Product feature like as android mobile",
-      "name": "Andrea Pierce"
-    },
+    
     {
       "id": "6249ea9ea5fb16e556da74fa",
       "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
