@@ -4,7 +4,7 @@ import './Dashboard.css'
 const Dashboard = () => {
     return (
         <div>
-           <h2> Dash Board</h2>
+           <MyLineChart></MyLineChart>
         </div>
     );
 };
