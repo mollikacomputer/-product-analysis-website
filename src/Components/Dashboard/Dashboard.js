@@ -5,7 +5,6 @@ import './Dashboard.css'
 const Dashboard = () => {
     return (
         <div className='dashboard-container' >
-
            <MyLineChart></MyLineChart>
            <SpecialChart></SpecialChart>
         </div>
