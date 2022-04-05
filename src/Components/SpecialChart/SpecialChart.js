@@ -9,8 +9,8 @@ const SpecialChart = () => {
   }, []);
   return (
     <div>
-      <BarChart width={200} height={400} data={watches}>
-        <h2> Bar Chart Data</h2>
+      <h2> Bar Chart </h2>
+      <BarChart width={350} height={350} data={watches}>
         <Bar dataKey="sell" fill="#8884d8" />
       </BarChart>
     </div>

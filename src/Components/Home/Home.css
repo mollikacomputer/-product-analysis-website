@@ -42,4 +42,8 @@
     .questions-answer{
         grid-template-columns: 1fr;
     }
+    .dashboard-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

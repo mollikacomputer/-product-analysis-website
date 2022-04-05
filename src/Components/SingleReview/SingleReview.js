@@ -1,7 +1,7 @@
 import React from 'react';
 import './SingleReview.css'
 const SingleReview = (props) => {
-    const {name, rating, picture, action } = props.review;
+    const {name, rating, picture, action } =props.review;
     return (
         <div className='single-review-container'>
             <img src={picture} alt="product-pic" />

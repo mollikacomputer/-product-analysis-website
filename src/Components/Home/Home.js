@@ -5,6 +5,8 @@ import ReviewSection from "../ReviewSection/ReviewSection";
 import "./Home.css";
 const Home = (props) => {
   const [reviews, setReviews] = useReviews();
+  let homeReviews = reviews.slice(0,3);
+  const navigate = useNavigate();
   return (
     <>
       <div className="home-container">
@@ -31,12 +33,14 @@ const Home = (props) => {
         </div>
       </div>
       <div className="comment-section">
-        {reviews.map((review) => (
+        {
+        homeReviews.map((review) => (
           <ReviewSection review={review}></ReviewSection>
-        ))}
+        ))
+        }
       </div>
         
-      <button className="btn btn-dark btn-lg" > Show all</button>
+      <button onClick={() => navigate("/review")} className="btn btn-dark btn-lg" > Show all</button>
       <div className="questions-answer">
       <section>
         <h6> Question 1. What is context API </h6>
